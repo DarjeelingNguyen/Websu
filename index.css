@@ -4,7 +4,8 @@ div{
     
 }
 body{
-    background-image: url(back.png);
+    background-image: url(Background.png);
+    background-color: black;
     background-size: cover;
 }
 .head{
@@ -58,9 +59,36 @@ li:hover{
 .link{
     padding: 0;
     width: 80%;
-    height: 310px;
+    height: 250px;
     max-width: 1115px;
+    margin: 0 auto;
     gap: 2rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ln{
+    padding: 0;
+    margin: 0 auto;
+    align-items: center;
+    width: 1025px;
+    height: 10px;
+    background-color: white;
+}
+btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+.circle{
+    padding: 0;
+    width: 80%;
+    height: 0px;
+    margin-top: auto;
+    gap: 2rem;
+    max-width: 1060px;
     margin: 0 auto;
     display:flex;
     align-items: center;
